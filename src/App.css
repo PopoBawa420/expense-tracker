@@ -1,0 +1,39 @@
+.app-container {
+  overflow: hidden;
+  width: 100%;
+  background-color: #F9F9FF;
+}
+
+.tab-header {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.tab-header button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 20px;
+  margin: 0 5px;
+}
+
+.tab-header .active {
+  background: black;
+  color: white;
+}
+
+.swipeable-container {
+  display: flex;
+  width: 300%;
+  transition: transform 0.3s ease;
+}
+
+.swipeable-view {
+  flex: 1;
+  min-width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}

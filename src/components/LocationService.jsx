@@ -12,7 +12,7 @@ export const getAddressFromCoordinates = async (latitude, longitude) => {
   try {
     // Use the OpenCage Geocoder API
     const response = await fetch(
-      `https://api.opencagedata.com/geocode/v1/json?q=${latitude}+${longitude}&key=c46e26ea7963407cbc9a37a163bb0caa`
+      `https://api.opencagedata.com/geocode/v1/json?q=${latitude}+${longitude}&key=c5482aec80814ff68aca4863b25de2fd`
     );
     const data = await response.json();
 
